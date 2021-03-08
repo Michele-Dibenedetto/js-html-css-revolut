@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* inizio header */
+header {
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style: none;
+}
+
+.horizondal_list > li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #a3a0a0;
+}
+
+/* Inizio nav left */
+.nav_left {
+    float: left;
+}
+.nav_left li {
+    vertical-align: middle;
+}
+
+.nav_left li:first-child {
+    line-height: 0;
+}
+.logo {
+    width: 100px;
+}
+
+.black {
+    color: black;
+}
+/* fine nav left */
+/* inizio nav right */
+
+.nav_right {
+    float: right;
+}
+
+.nav_right i {
+    font-size: 12px;
+}
+
+.nav_right .btn {
+    padding: 5px 20px;
+    background-color: #fa58bc;
+    color: white;
+    border-radius: 20px;
+}
+
+.nav_right ul > li {
+    position: relative;
+}
+/* parte di dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    width: 140px;
+    padding: 0 20px;
+    box-shadow: 1px 1px 10px 5px lightgray;
+}
+.dropdown ul li {
+    line-height: 50px;
+}
+
+.dropdown .new {
+    position: absolute;
+    top: -8px;
+    color: #fa58bc;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+/* fine nav right */
+/* classe per rendere visibile il dropdown */
+.active {
+    display: block;
+}
